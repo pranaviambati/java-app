@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Fetch Code') {
             steps {
-                git https://github.com/pranaviambati/java-app
+                git 'https://github.com/pranaviambati/java-app.git'
+                    
             }
         }
     }
