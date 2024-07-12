@@ -37,8 +37,7 @@ pipeline{
             steps{
                script{
                    
-                   mvnIntegrationTest()
-               }
+                   mvnIntegerationTest()               }
             }
         }
         stage('Static code analysis: Sonarqube'){
